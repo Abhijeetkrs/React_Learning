@@ -1,7 +1,8 @@
 
 function App() {
+  const evalutedExpression = " evaluated expression"
   return (
-   <h1>Hello React (create-react-app) heavy,bulky in size</h1>
+   <h1>Hello React (create-react-app) heavy,bulky in size ,{evalutedExpression}</h1>
   );
 }
 
