@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -10,8 +10,13 @@ function App() {
   
  const addFunc = () => {
     console.log(`added`)
-    if(counter<20)
-      setCounter(counter+1)
+    // if(counter<20)
+    //   setCounter(counter+1)
+    //  setCounter(counter+1)
+    //  setCounter(counter+1)
+    //  setCounter(counter+1)
+    setCounter((prevCounter)=> prevCounter + 1)
+    setCounter((prevCounter)=> prevCounter + 1)     //callback refer current state of counter
     // counter = counter + 1
     console.log(`counter value : ${counter}`)
 
